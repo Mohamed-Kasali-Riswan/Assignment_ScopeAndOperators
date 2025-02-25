@@ -11,7 +11,7 @@ public class QsNo4 {
 		if(a==10) {
 			int b=20;
 			if(a>5) {
-				int b=25;
+				int b=25; //(Compile Time Error) Duplicate local variable b at scopesAndVariables
 			}
 		}
 	}
